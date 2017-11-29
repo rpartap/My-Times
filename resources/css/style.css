@@ -1,13 +1,25 @@
+html: {
+
+}
+
 div.container {
   display: flex;
 }
 
 .header {
-
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
 }
 .logo {
+  display: flex;
+  color: MediumAquamarine;
 
 }
 .top-nav {
-
+  display: flex;
+}
+.top-nav li {
+  display: inline-block;
 }
