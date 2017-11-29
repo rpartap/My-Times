@@ -5,15 +5,16 @@ html, body: {
 
 div.container {
   display: flex;
-  border: 3px solid black;
+  border: 1px solid black;
 }
 
 .header {
   display: flex;
+  display: block;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  border-bottom: 3px solid black;
+  border-bottom: 1px solid black;
 }
 
 .header p {
@@ -22,15 +23,17 @@ div.container {
 
 .logo {
   display: flex;
-  border: 3px solid black;
+  border: 1px solid black;
 }
 
 .top-nav {
   display: flex;
-  border: 3px solid black;
+  display: block;
+  border: 1px solid black;
 }
 
 .top-nav .topnav {
   display: inline-block;
   text-decoration: underline;
+  display: inline;
 }
