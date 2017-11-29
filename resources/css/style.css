@@ -12,14 +12,20 @@ div.container {
   font-size: 14px;
   font-weight: bold;
 }
-.logo {
-  display: flex;
+
+.header p {
   color: MediumAquamarine;
 
 }
+
+.logo {
+  display: flex;
+}
+
 .top-nav {
   display: flex;
 }
+
 .top-nav li {
   display: inline-block;
 }
