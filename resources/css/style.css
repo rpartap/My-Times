@@ -1,9 +1,11 @@
-html: {
-
+html, body: {
+  margin: 0;
+  padding: 0;
 }
 
 div.container {
   display: flex;
+  border: 3px solid black;
 }
 
 .header {
@@ -11,21 +13,24 @@ div.container {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  border-bottom: 3px solid black;
 }
 
 .header p {
   color: MediumAquamarine;
-
 }
 
 .logo {
   display: flex;
+  border: 3px solid black;
 }
 
 .top-nav {
   display: flex;
+  border: 3px solid black;
 }
 
-.top-nav li {
+.top-nav .topnav {
   display: inline-block;
+  text-decoration: underline;
 }
