@@ -3,37 +3,25 @@ html, body: {
   padding: 0;
 }
 
-div.container {
-  display: flex;
-  border: 1px solid black;
-}
-
 .header {
-  display: flex;
-  display: block;
+  display: inline-flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  align-items: center;
+  position: fixed;
   border-bottom: 1px solid black;
+  height: 80px;
 }
 
-.header p {
-  color: MediumAquamarine;
-}
-
-.logo {
-  display: flex;
-  border: 1px solid black;
-}
-
-.top-nav {
-  display: flex;
+.header nav {
   display: block;
-  border: 1px solid black;
+  padding-right: 40px;
+  justify-content: flex-end;
 }
 
-.top-nav .topnav {
-  display: inline-block;
+.header nav span {
+  color: black;
   text-decoration: underline;
-  display: inline;
+  display: inline-block;
 }
