@@ -1,10 +1,21 @@
-html, body: {
-  margin: 0;
-  padding: 0;
+html {
+  display: block;
 }
 
-.header {
-  display: inline-flex;
+body {
+  color: black;
+  margin: 0;
+  font-family: Georgia;
+  font-size: 17px;
+}
+
+header, nav {
+  display: block;
+  padding-right: 40px;
+}
+
+header {
+  display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -12,16 +23,56 @@ html, body: {
   position: fixed;
   border-bottom: 1px solid black;
   height: 80px;
+  width: 100%;
 }
 
-.header nav {
-  display: block;
-  padding-right: 40px;
-  justify-content: flex-end;
+div.logo {
+  display: flex;
+  align-items: center;
+  color: MediumAquamarine;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
 }
 
-.header nav span {
+.logo span {
+  color: MediumAquamarine;
+}
+
+header nav {
+  display: inline-flex;
   color: black;
-  text-decoration: underline;
   display: inline-block;
+  justify-content: space-between;
+  margin-left: 800px;
+  padding-right: 40px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  color: black;
+}
+.content {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
 }
