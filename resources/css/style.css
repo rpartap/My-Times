@@ -7,6 +7,7 @@ body {
   margin: 0;
   font-family: Georgia;
   font-size: 17px;
+  vertical-align: baseline;
 }
 
 header, nav {
@@ -24,6 +25,7 @@ header {
   border-bottom: 1px solid black;
   height: 80px;
   width: 100%;
+  z-index: 1;
 }
 
 div.logo {
@@ -53,26 +55,167 @@ header nav {
   padding-right: 40px;
 }
 
+nav {
+  color: black;
+}
+
 nav span {
   display: inline-block;
   padding: 20px 10px;
-  color: black;
 }
+
+.container {
+  display: inline-flex;
+  margin-top: 80px;
+}
+
+.column {
+  margin-right: 32px;
+  display: flex;
+  }
+
 .content {
   display: flex;
-}
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+  }
 
-.column.large {
+.large {
   width: 630px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.tuna, .tuna h3, .tuna p, .orca, .orca h2, .orca p, .earth, .earth h3, .burger, .burger h2, .burger p, .memory, .memory h3, .star, .star h2, .star p, .cats, .cats h3, .cats p, .bites, .bites h2, .bites p {
   display: flex;
 }
 
-.column.medium {
+.tuna h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: black;
+}
+
+.earth h3, .memory h3, .cats h3 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: black;
+}
+
+.tuna {
+  flex-direction: column;
+
+}
+
+.tuna img {
+
+}
+
+.tuna h3 {
+
+}
+
+.tuna p {
+
+}
+
+.orca {
+  flex-direction:column;
+}
+
+.orca h2 {
+
+}
+
+.orca p {
+
+}
+
+.earth {
+  flex-direction: column;
+}
+
+.earth h3 {
+
+}
+
+.burger {
+  flex-direction: column;
+}
+
+.burger h2 {
+
+}
+
+.burger p {
+
+}
+
+.memory {
+  flex-direction: column;
+}
+
+.memory h3 {
+
+}
+
+.medium {
   width: 300px;
-  display: flex;
+  display: inline-flex;
+  flex-direction: column;
 }
 
-.column.small {
+.star {
+  flex-direction: column;
+}
+
+.star h2 {
+
+}
+
+.star p {
+
+}
+
+.cats {
+  flex-direction: column;
+}
+
+.cats img {
+
+}
+
+.cats h3 {
+
+}
+
+.cats p {
+
+}
+
+.small {
   width: 240px;
-  display: flex;
+  display: inline-flex;
+  flex-direction: column;
+}
+.bites {
+  flex-direction: column;
+}
+
+.bites img {
+
+}
+
+.bites h2 {
+
+}
+
+.bites p {
+
 }
