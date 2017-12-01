@@ -87,11 +87,7 @@ nav span {
 .large {
   width: 630px;
   display: inline-flex;
-  flex-direction: column;
-}
-
-.tuna, .tuna h3, .tuna p, .orca, .orca h2, .orca p, .earth, .earth h3, .burger, .burger h2, .burger p, .memory, .memory h3, .star, .star h2, .star p, .cats, .cats h3, .cats p, .bites, .bites h2, .bites p {
-  display: flex;
+  flex-wrap: wrap;
 }
 
 .tuna h3 {
@@ -99,6 +95,7 @@ nav span {
   font-weight: bold;
   font-size: 40px;
   color: black;
+  display: flex;
 }
 
 .earth h3, .memory h3, .cats h3 {
@@ -110,59 +107,63 @@ nav span {
 
 .tuna {
   flex-direction: column;
-
+  display: flex;
 }
 
 .tuna img {
-
+  display: flex;
 }
 
 .tuna h3 {
-
+  display: flex;
 }
 
 .tuna p {
-
+  display: flex;
 }
 
 .orca {
-  flex-direction:column;
+  flex-direction: column;
+  display: flex;
 }
 
 .orca h2 {
-
+  display: flex;
 }
 
 .orca p {
-
+  display: flex;
 }
 
 .earth {
   flex-direction: column;
+  display: flex;
 }
 
 .earth h3 {
-
+  display: flex;
 }
 
 .burger {
   flex-direction: column;
+  display: flex;
 }
 
 .burger h2 {
-
+  display: flex;
 }
 
 .burger p {
-
+  display: flex;
 }
 
 .memory {
   flex-direction: column;
+  display: flex;
 }
 
 .memory h3 {
-
+  display: flex;
 }
 
 .medium {
@@ -173,30 +174,32 @@ nav span {
 
 .star {
   flex-direction: column;
+  display: flex;
 }
 
 .star h2 {
-
+  display: flex;
 }
 
 .star p {
-
+  display: flex;
 }
 
 .cats {
   flex-direction: column;
+  display: flex;
 }
 
 .cats img {
-
+  display: flex;
 }
 
 .cats h3 {
-
+  display: flex;
 }
 
 .cats p {
-
+  display: flex;
 }
 
 .small {
@@ -206,16 +209,17 @@ nav span {
 }
 .bites {
   flex-direction: column;
+  display: flex;
 }
 
 .bites img {
-
+  display: flex;
 }
 
 .bites h2 {
-
+  display: flex;
 }
 
 .bites p {
-
+  display: flex;
 }
